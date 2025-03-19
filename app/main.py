@@ -82,7 +82,7 @@ if uploaded_image is not None:
     with col1:
         st.subheader("📷 Uploaded Image")
         resized_image = image.resize((150, 150))  # Compact image display
-        st.image(resized_image, caption="Your uploaded fashion item", use_column_width=False)
+        st.image(resized_image, caption="Your uploaded fashion item", use_container_width =False)
 
     with col2:
         st.subheader("🔍 Model Prediction")
